@@ -78,10 +78,10 @@ h5 {
   margin-right: 20px; }
 
 section.intro, section.features-extra, section.sign-up {
-  background: #fff; }
+  background: #F3F4F8; }
 
 section.features, section.blog-intro, section.blog {
-  background: #F3F4F8; }
+  background: #fff; }
 
 /* ==========================================================================
 Global Styles
@@ -489,6 +489,16 @@ Intro
   display: inline-block;
   width: 80%; }
 
+.intro-content h5 {
+background: rgba(218, 89, 76, 0.86);
+color: #FFF;
+font: normal 0.769230769em/1.0 Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+letter-spacing: 0.275em;
+margin-bottom: 15px;
+padding: 0.95em 10px;
+text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+text-transform: uppercase;
+}
 /* ==========================================================================
 Features-stack
 ========================================================================== */
@@ -574,8 +584,8 @@ Features-stack
 .hero-strip
 ========================================================================== */
 .hero-strip {
-  margin-top: 10px;
-  background: #F3F4F8;
+  /*margin-top: 10px;*/
+  background: #787C84;
   padding-bottom: 20px;
   position: relative; }
   .hero-strip i {
