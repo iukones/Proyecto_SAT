@@ -585,7 +585,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   /*margin-top: 10px;*/
-  background: #787C84;
+  background: rgba(120, 124, 132, 0.32);
   padding-bottom: 20px;
   position: relative; }
   .hero-strip i {
@@ -928,7 +928,7 @@ footer {
     right: 0;
     width: 40%;
     height: 100%;
-    padding: 142px 0 0 70px; }
+    padding: 120px 0 0 70px; }
     footer .social-share p {
       color: #fff;
       text-transform: uppercase;
@@ -946,10 +946,21 @@ footer {
       background-color: #1590BF; }
     footer .social-share a.facebook-share:hover, footer .social-share a.facebook-share:focus {
       background-color: #324C85; }
+    footer .social-share a.youtube-share:hover, footer .social-share a.youtube-share:focus {
+      background-color: #8A0408; }
     footer .social-share a.facebook-share {
       height: 60px;
       width: 60px;
       background-color: #3B5898;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px; }
+    footer .social-share a.youtube-share {
+      height: 60px;
+      width: 60px;
+      background-color: #cc181e;
       border-radius: 3px;
       font-size: 22px;
       display: inline-block;
