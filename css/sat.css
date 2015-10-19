@@ -426,7 +426,8 @@ header {
     text-transform: uppercase;
     font-size: 12px}
   header ul.primary-nav li a:hover {
-    color: #FF5274; }
+    /*color: #FF5274;*/
+    color: #23527c; }
   header ul.primary-nav li:last-child a {
     padding-right: 0px; }
   .navigation ul.primary-nav-2 li:last-child a {
@@ -465,9 +466,10 @@ header .buscar{
           transform: translateX(-50%); }
 .social{
   position: absolute;
+  width: 251px;
+  height: 497px;
   /*top: 158px;*/
   /*left: 0;*/
-  width: 160px;
   /*padding-left: 45px;*/
 }
 /* ==========================================================================
@@ -631,7 +633,7 @@ Features-stack
 ========================================================================== */
 .blog {
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 10px; }
   .blog img {
     width: 100%;
     height: auto;
@@ -681,11 +683,53 @@ Features-stack
   .blog figcaption a.blog-post-title {
     color: rgba(28, 54, 83, 0.6); }
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
-    color: #3D4351; }
+    /*color: #3D4351; */
+    color: #23527c;}
 
 /* ==========================================================================
 .testimonial-slider
 ========================================================================== */
+
+       .swiper-container {
+        width: 100%;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .append-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .append-buttons a {
+        display: inline-block;
+        border: 1px solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin: 0 10px;
+        font-size: 13px;
+    }
+
+
 .testimonial-slider {
   background: url("../img/testimonials-bg.jpg") no-repeat center center;
   background-size: cover; }
