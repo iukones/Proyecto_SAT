@@ -699,10 +699,10 @@ Features-stack
         margin: 20px auto;
     }
     .swiper-slide {
+        width: 150px !important;
         text-align: center;
         font-size: 18px;
         background: #fff;
-
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
