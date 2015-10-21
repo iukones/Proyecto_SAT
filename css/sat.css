@@ -465,9 +465,10 @@ header .buscar{
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
 .social{
-  position: absolute;
+  position: relative;
   width: 251px;
   height: 497px;
+  float: right;
   /*top: 158px;*/
   /*left: 0;*/
   /*padding-left: 45px;*/
@@ -587,8 +588,10 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   /*margin-top: 10px;*/
-  background: rgba(120, 124, 132, 0.32);
+  /*background: rgba(120, 124, 132, 0.32);*/
+  background: #F3F4F8;
   padding-bottom: 20px;
+  padding-top: 20px;
   position: relative; }
   .hero-strip i {
     font-family: "Nunito", sans-serif;
@@ -692,7 +695,7 @@ Features-stack
 
        .swiper-container {
         width: 100%;
-        height: 300px;
+        height: auto;
         margin: 20px auto;
     }
     .swiper-slide {
@@ -757,10 +760,10 @@ Features-stack
     letter-spacing: 2px; }
 
 #featured {
-    position: relative;
+    position: absolute;
     width: 896px;
     height: 560px;
-    float: right;
+    float: left;
 }
 #featured #slides {
     width: 896px;
@@ -913,7 +916,8 @@ To top
 ========================================================================== */
 .to-top {
   height: 60px;
-  background-color: #495061; }
+  /*background-color: #495061;*/
+  }
   .to-top .to-top-wrap {
     height: 60px;
     width: 70px;
@@ -934,15 +938,22 @@ To top
   .to-top .row {
     position: relative; }
 
+  .to-top img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
 /* ==========================================================================
 Footer
 ========================================================================== */
 footer {
-  background-color: #3D4351;
+  /*background-color: #3D4351;*/
   position: relative; }
   footer p {
-    color: #ACB1B4;
-    font-size: 13px; }
+    color: #474745;
+    font-size: 13px;
+    text-align: center; }
   footer a {
     color: #fff; }
   footer a:hover {
@@ -1016,7 +1027,8 @@ footer {
     footer .social-share a i {
       margin-top: 20px; }
   footer .footer-links {
-    margin: 120px 0 120px 0; }
+    margin: 50px 0 50px 0; }
+
 
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
