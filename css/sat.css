@@ -692,17 +692,18 @@ Features-stack
 /* ==========================================================================
 .testimonial-slider
 ========================================================================== */
-
-       .swiper-container {
+    .swiper-container {
         width: 100%;
         height: auto;
         margin: 20px auto;
     }
     .swiper-slide {
-        width: 150px !important;
         text-align: center;
         font-size: 18px;
-        background: #fff;
+        /*background: #fff;*/
+        width: 150px !important;
+        height: 200px !important;
+        margin-right: 30px;
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -717,11 +718,41 @@ Features-stack
         -webkit-align-items: center;
         align-items: center;
     }
-    .append-buttons {
+    /*.swiper-slide:nth-child(2n) {
+        width: 40%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 20%;
+    }*/
+       /*.swiper-container {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }*/
+    /*.swiper-slide {
+        width: 150px !important;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;*/
+        /* Center slide text vertically */
+       /* display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }*/
+    /*.append-buttons {
         text-align: center;
         margin-top: 20px;
-    }
-    .append-buttons a {
+    }*/
+    /*.append-buttons a {
         display: inline-block;
         border: 1px solid #007aff;
         color: #007aff;
@@ -730,7 +761,7 @@ Features-stack
         border-radius: 4px;
         margin: 0 10px;
         font-size: 13px;
-    }
+    }*/
 
 
 .testimonial-slider {
@@ -914,6 +945,12 @@ Sign up form
 /* ==========================================================================
 To top
 ========================================================================== */
+.to-top-1 {
+  height: 60px;
+  margin-top: 60px;
+  /*background-color: #495061;*/
+  }
+
 .to-top {
   height: 60px;
   /*background-color: #495061;*/
@@ -938,7 +975,7 @@ To top
   .to-top .row {
     position: relative; }
 
-  .to-top img{
+  .to-top-1 img{
     width: 100%;
     height: auto;
     text-align: center;
