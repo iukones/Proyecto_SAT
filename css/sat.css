@@ -350,7 +350,8 @@ Hero
   min-height: 720px;
  /*background: url("../img/hero.jpg") center center;*/
   background-size: cover;
-  position: relative; }
+  position: relative;
+  margin-bottom: 50px; }
   .hero .down-arrow a {
     color: #fff; }
   .hero h1 {
